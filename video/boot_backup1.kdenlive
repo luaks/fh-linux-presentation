@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt version="6.0.0" producer="main bin" LC_NUMERIC="en_US.utf8" root="/home/luaks" title="Anonymous Submission">
+ <profile sample_aspect_den="1" height="1080" colorspace="709" description="HD 1080p 25 fps" display_aspect_den="9" frame_rate_num="25" width="1920" progressive="1" display_aspect_num="16" frame_rate_den="1" sample_aspect_num="1"/>
+ <producer in="0" id="1" title="Anonymous Submission" out="2230">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">00:01:29:06</property>
+  <property name="eof">pause</property>
+  <property name="resource">VirtualBox VMs/win95/win95-2016-04-21T08-20-42-850544000Z.webm</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">800</property>
+  <property name="meta.media.0.codec.height">600</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">1000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">vp8</property>
+  <property name="meta.media.0.codec.long_name">On2 VP8</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.encoder.markup">vpxencv1.5.0</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.frame_rate_num">30</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">800</property>
+  <property name="meta.media.height">600</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:file_size">2069653</property>
+  <property name="kdenlive:file_hash">0208646e2303431673de2573144369ab</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer in="0" id="2" out="124">
+  <property name="mlt_type">producer</property>
+  <property name="length">00:00:05:00</property>
+  <property name="eof">pause</property>
+  <property name="resource">fh/übungen/bic2/Linux/video/001delkey.gif</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">620</property>
+  <property name="meta.media.height">386</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="kdenlive:file_size">21209</property>
+  <property name="kdenlive:file_hash">ec6dc79669af654833d94feeaf137a2b</property>
+ </producer>
+ <producer in="0" id="3" out="124">
+  <property name="mlt_type">producer</property>
+  <property name="length">00:00:05:00</property>
+  <property name="eof">pause</property>
+  <property name="resource">fh/übungen/bic2/Linux/video/bios1.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">620</property>
+  <property name="meta.media.height">386</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="kdenlive:file_size">39321</property>
+  <property name="kdenlive:file_hash">f341f0c2e7673cd8b63dc0e3be884c10</property>
+ </producer>
+ <producer in="0" id="4" out="131">
+  <property name="mlt_type">producer</property>
+  <property name="length">132</property>
+  <property name="eof">pause</property>
+  <property name="resource">fh/übungen/bic2/Linux/video/bios2.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">620</property>
+  <property name="meta.media.height">386</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="kdenlive:file_size">50606</property>
+  <property name="kdenlive:file_hash">1bf9200e1e44004f05941ddb226c34b9</property>
+ </producer>
+ <producer in="0" id="5" out="124">
+  <property name="mlt_type">producer</property>
+  <property name="length">00:00:05:00</property>
+  <property name="eof">pause</property>
+  <property name="resource">fh/übungen/bic2/Linux/video/bios3.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">620</property>
+  <property name="meta.media.height">386</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="kdenlive:file_size">61821</property>
+  <property name="kdenlive:file_hash">628355ed3b02be990ff36d5fd744a487</property>
+ </producer>
+ <producer in="0" id="7" out="163">
+  <property name="mlt_type">producer</property>
+  <property name="length">164</property>
+  <property name="eof">pause</property>
+  <property name="resource">fh/übungen/bic2/Linux/video/bluescreen.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">720</property>
+  <property name="meta.media.height">400</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="kdenlive:file_size">5703</property>
+  <property name="kdenlive:file_hash">6eaed4e9ff28f43a58fc210c5db2d218</property>
+ </producer>
+ <playlist kdenlive:customeffects="&lt;customeffects/>&#xa;" id="main bin">
+  <property name="kdenlive:customeffects">&lt;customeffects/>
+</property>
+  <property name="kdenlive:docproperties.documentid">1461227042600</property>
+  <property name="kdenlive:docproperties.enableproxy">0</property>
+  <property name="kdenlive:docproperties.generateimageproxy">0</property>
+  <property name="kdenlive:docproperties.generateproxy">0</property>
+  <property name="kdenlive:docproperties.kdenliveversion">15.12.3</property>
+  <property name="kdenlive:docproperties.position">1143</property>
+  <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
+  <property name="kdenlive:docproperties.projectfolder">kdenlive</property>
+  <property name="kdenlive:docproperties.proxyextension">mpg</property>
+  <property name="kdenlive:docproperties.proxyimageminsize">2000</property>
+  <property name="kdenlive:docproperties.proxyminsize">1000</property>
+  <property name="kdenlive:docproperties.proxyparams">-s 640x480 -g 5 -qscale 6 -ab 128k -vcodec mpeg2video -acodec mp2</property>
+  <property name="kdenlive:docproperties.version">0.91</property>
+  <property name="kdenlive:docproperties.verticalzoom">1</property>
+  <property name="kdenlive:docproperties.zonein">0</property>
+  <property name="kdenlive:docproperties.zoneout">2231</property>
+  <property name="kdenlive:docproperties.zoom">4</property>
+  <property name="kdenlive:documentnotes"/>
+  <property name="kdenlive:clipgroups">&lt;groups/>
+</property>
+  <property name="xml_retain">1</property>
+  <entry in="0" producer="1" out="2230"/>
+  <entry in="0" producer="2" out="124"/>
+  <entry in="0" producer="3" out="124"/>
+  <entry in="0" producer="4" out="124"/>
+  <entry in="0" producer="5" out="124"/>
+  <entry in="0" producer="7" out="124"/>
+ </playlist>
+ <producer in="0" id="black" out="500">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" producer="black" out="1143"/>
+ </playlist>
+ <playlist id="playlist1">
+  <property name="kdenlive:audio_track">1</property>
+  <property name="kdenlive:track_name">Audio 2</property>
+ </playlist>
+ <playlist id="playlist2">
+  <property name="kdenlive:audio_track">1</property>
+  <property name="kdenlive:track_name">Audio 1</property>
+ </playlist>
+ <playlist id="playlist3">
+  <property name="kdenlive:track_name">Video 3</property>
+ </playlist>
+ <playlist id="playlist4">
+  <property name="kdenlive:track_name">Video 2</property>
+ </playlist>
+ <producer in="0" id="1_playlist5" title="Anonymous Submission" out="2230">
+  <property name="mlt_type">producer</property>
+  <property name="length">00:01:29:06</property>
+  <property name="eof">pause</property>
+  <property name="resource">VirtualBox VMs/win95/win95-2016-04-21T08-20-42-850544000Z.webm</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">2069653</property>
+  <property name="kdenlive:file_hash">0208646e2303431673de2573144369ab</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">800</property>
+  <property name="meta.media.0.codec.height">600</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">1000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">vp8</property>
+  <property name="meta.media.0.codec.long_name">On2 VP8</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.encoder.markup">vpxencv1.5.0</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">30</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">800</property>
+  <property name="meta.media.height">600</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist5">
+  <property name="kdenlive:track_name">Video 1</property>
+  <entry in="0" producer="7" out="162"/>
+  <blank length="26"/>
+  <entry in="260" producer="1_playlist5" out="267"/>
+  <blank length="10"/>
+  <entry in="260" producer="1_playlist5" out="267"/>
+  <blank length="9"/>
+  <entry in="260" producer="1_playlist5" out="267"/>
+  <blank length="9"/>
+  <entry in="260" producer="1_playlist5" out="267"/>
+  <blank length="10"/>
+  <entry in="260" producer="1_playlist5" out="267"/>
+  <blank length="2"/>
+  <entry in="86" producer="3" out="113"/>
+  <entry in="106" producer="4" out="130"/>
+  <entry in="78" producer="5" out="114"/>
+  <blank length="3"/>
+  <entry in="260" producer="1_playlist5" out="267"/>
+  <blank length="6"/>
+  <entry in="260" producer="1_playlist5" out="267"/>
+  <blank length="15"/>
+  <entry in="76" producer="1_playlist5" out="194"/>
+  <entry in="1068" producer="1_playlist5" out="1330"/>
+  <entry in="1502" producer="1_playlist5" out="1864"/>
+ </playlist>
+ <tractor in="0" id="maintractor" global_feed="1" title="Anonymous Submission" out="1143">
+  <track producer="black_track"/>
+  <track hide="video" producer="playlist1"/>
+  <track hide="video" producer="playlist2"/>
+  <track producer="playlist3"/>
+  <track producer="playlist4"/>
+  <track producer="playlist5"/>
+  <transition id="transition0">
+   <property name="a_track">0</property>
+   <property name="b_track">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">0</property>
+   <property name="b_track">4</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition4">
+   <property name="a_track">0</property>
+   <property name="b_track">5</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+</mlt>

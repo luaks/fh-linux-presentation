@@ -1,0 +1,100 @@
+/**
+ * Hacketihack theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * By luaks, http://luaks.net
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/Cutive-Mono-Regular.otf);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #000;
+
+$mainColor: #EBD71C;
+$headingColor: #EBD71C;
+
+$mainFontSize: 38px;
+$mainFont: "Droid Sans", arial, verdana, sans-serif;
+$headingFont: $mainFont;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #42affa;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 1.2em;
+$heading2Size: 1.2em;
+$heading3Size: 1.2em;
+$heading4Size: 1.2em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+	text-align: left;
+}
+
+ul {
+	li:before {
+		content: '-> ';
+	}
+
+	list-style: none !important;
+	list-style-type: none !important;
+}
+
+@keyframes hackCursor {
+	0% {background: black; color: black}
+	49.9999% {background: black; color: black}
+	50% {background: $mainColor; color: $mainColor}
+	100% {background: $mainColor; color: $mainColor}
+}
+
+.blinker:after {
+	width: 1em;
+	display: block;
+	text-align: left;
+	background: $mainColor;
+	content: ' ';
+	animation: hackCursor infinite;
+	animation-duration: 750ms;
+	animation-play-state: running;
+
+	&.silent {
+		background: black !important;
+	}
+}
+
+
+.bluescreen {
+	background: blue !important;
+
+	transition: none !important;
+}
+
+.images {
+	display: flex;
+}
+
+
+.images .image img {
+	width: 100%;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------

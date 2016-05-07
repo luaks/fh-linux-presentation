@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/hacketihack.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section></section>
+				<section>
+					<div class="stretch">
+					<iframe data-src="./intro.html" height="100%" width="100%" frameborder="0"></iframe>
+					</div>
+					<aside class="notes">
+						Wir schreiben das Jahr 1991. Ein junger IT Student aus Helsinki startet ein Betriebssystem.
+						Ein Projekt welches die Geschichte der Menschheit für immer verändern soll.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<p>
+					<ul>
+						<li>Was ist Linux?</li>
+						<li>Woher kommt Linux?</li>
+						<li>Distros</li>
+					<li>Vorteile</li>
+					<li>Nachteile</li>
+					<li>Einsatzgebiete</li>
+					</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Was ist Linux?</h2>
+					<ul>
+						<li>Kernel</li>
+						<li>UNIX</li>
+						<li>Free</li>
+					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Ist eigentlich nur der Kernel</li>
+							<li>basiert auf Unix</li>
+							<ul>
+								<li>OS aus 1970</li>
+								<li>Großrechner</li>
+							</ul>
+							<li>Freies Betriebssystem</li>
+							<ul>
+								<li>Free as in Free Speech not free beer</li>
+								<li>Community</li>
+								<li>Hacker Spirit</li>
+							</ul>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Woher kommt Linux?</h2>
+					<ul>
+						<li>Linus Torvalds</li>
+						<li>Ursprünglich Forschungsprojekt</li>
+						<li>GNU/Linux</li>
+					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Linux Torvalds 1991</li>
+							<li>Hobby Projekt</li>
+							<li>"Wie funktioniert das mit den den Betriebssystemen?"</li>
+							<li>GNU/Linux</li>
+							<ul>
+								<li>Richard Stallman created GNU</li>
+								<li>GNU is OS without Kernel</li>
+								<li>Stallman approached Torvalds</li>
+								<li>GNU/Linux was born</li>
+								<li>Correct term is GNU/Linux</li>
+							</ul>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<section>
+						<h2>Distros</h2>
+						<ul>
+							<li>Debian</li>
+							<ul>
+								<li>Ubuntu</li>
+								<li>gNewSense</li>
+							</ul>
+							<img src="./img/debian.jpg"  width="280" height="185"  alt="">
+							<img src="./img/ubuntu.jpg" width="280" height="185"  alt="">
+							<img src="./img/gnewsense.png"  width="280" height="185"  alt="">
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>Was ist eigentlich eine Distribution?</li>
+								<ul>
+									<li>OS das auf den Kernel aufsetzt</li>
+									<li>ein Haufen von Software zusammengematscht zu einem OS</li>
+									<li>Jedes kann das machen (da FREI)</li>
+								</ul>
+								<li>Debian</li>
+								<ul>
+									<li>Ubuntu - gutes einsteigerding</li>
+									<li>Userfreundlich</li>
+									<li>Cannonical Scheiss</li>
+									<li>gNewSense - Richard Stallman</li>
+									<li>meist User-OS</li>
+								</ul>
+							</ul>
+
+						</aside>
+					</section>
+
+					<section>
+						<h2>Distros</h2>
+						<ul>
+							<li>Red Hat</li>
+							<ul>
+								<li>CentOS</li>
+								<li>Fedora</li>
+							</ul>
+							<img src="./img/redhat.jpg"  width="280" height="185"  alt="">
+							<img src="./img/CentOS.jpeg" width="280" height="185"  alt="">
+							<img src="./img/fedora.jpg" width="280" height="185"  alt="">
+
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>Redhat</li>
+								<ul>
+									<li>kommerzielles OS</li>
+									<li>meist Server</li>
+									<li>CentOS Opensource Klon von RedHat</li>
+									<li>Fedora - Free desktop variante</li>
+									<li>Vorteile: Support, da kommerziel, seht stabil, sicher</li>
+									<li>Nachteile: Alte Software (geht hand in hand mit stabil & sicher-heartbleed bug, zu alte version von openSSL, daher bug nicht gegriffen)</li>
+								</ul>
+
+							</ul>
+
+						</aside>
+					</section>
+
+
+					<section>
+						<div class="split">
+							<img src="./img/suse.jpg"  width="280" height="185" alt="">
+							<img src="./img/Kali-Linux_4.jpg"  width="280" height="185"alt="">
+							<img src="./img/archlinux.jpg" width="280" height="185" alt="">
+							<img src="./img/manjaro.png" width="280" height="185" alt="">
+							<img src="./img/raspbian.png" width="280" height="185" alt="">
+							<img src="./img/gentoo.png" width="280" height="185" alt="">
+						</div>
+
+						<aside class="notes">
+							<li>Arch Linux</li>
+							<ul>
+								<li>"besonderes" OS, für Lukas-Leute
+								<li>Aufsetzen vom Scratch weg, man kann daraus wirklich machen was man will
+								<li>Vorteile Rollierende SW Upgrades,
+								<li>Nachteile Maintainance (teilweise instabil weil frische SW, tw. nicht ausreichend getestet)
+							</ul>
+							<p>Kennt noch jemand eine Distribution?</p>
+
+						</aside>
+					</section>
+					<section class="stretch-to-fit">
+						<img src="./img/Debian_family_tree_11-06.png" width="400" alt="">
+						<aside class="notes">
+							<ul>
+								<li>Debian Tree</li>
+								<li>Jede Distro hat Vorteile und Nachteile</li>
+								<li>Bluescreen kommt als nächste</li>
+								<li>Gibt viel mehr</li>
+							</ul>
+						</aside>
+					</section>
+
+
+				</section>
+
+				<section class="stretch full-stretch">
+					<video data-autoplay class="full-strech stretch" src="./video/linux.mp4"></video>
+				</section>
+
+				<section>
+					<h2>Vorteile</h2>
+					<ul>
+						<li>Stabilität</li>
+						<li>Performance</li>
+						<li>Flexibilität</li>
+						<li>Resourcenschonend</li>
+					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Stabilität - Sieht man hier.</li>
+							<li>Sicherheit - Grundkonzepte der Rechteverteilung (jeder server läuft als eigener user)</li>
+							<li>Flexibilität - Finetuning für praktisch alles</li>
+							<li>Performance - weil Flexibel, kann jedes bisschen Performance herausgekitzelt werden</li>
+							<li>Resourcenschonend - Nur relevante Teile installieren/starten. MS Exchange für 10 Leute braucht schon 16 GB Ram</li>
+							<li>Shell - Irrsinning schnell für den Umgang mit dem System</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Nachteile</h2>
+					<ul>
+						<li>Treiberkompatibilität</li>
+						<li>User Experience</li>
+						<li>Gaming</li>
+					</ul>
+					<aside class="notes">
+						<li>Treiberkompatibilität</li>
+						<ul>
+							<li>Grafiktreiber</li>
+							<li>Skylake</li>
+						</ul>
+						<li>User Experience</li>
+						<ul>
+							<li>Dinge gehen nicht ganz so einfach Wie unter Windows oder OSX</li>
+							<li>Bekannte Software oft nichtverfügbar</li>
+						</ul>
+						<li>Gaming</li>
+						<ul>
+							<li>Weil Grafiktreiberprobleme, nie als Gamingplatform angezielt</li>
+							<li>Mittlerweile Steam, immer zwenige Spiele</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Einsatzgebiete</h2>
+					<ul>
+						<li>Server</li>
+						<li>Smartphones</li>
+						<li>Embedded</li>
+					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Server</li>
+							<ul>
+								<li>80% am server markt</li>
+								<li>Einzelserver</li>
+								<li>Serverfarmen (z.B. Google)</li>
+								<li>Microsoft oft noch für Untenrehmensinternes verwendet</li>
+							</ul>
+							<li>Smartphones</li>
+							<ul>
+								<li>Android ca 80% marktanteil</li>
+								<li>Jolla</li>
+								<li>Ubuntu phone</li>
+								<li>Meego</li>
+							</ul>
+							<li>Embedded</li>
+							<ul>
+								<li>Waschmaschinensteuerung</li>
+								<li>Kaffeemaschine</li>
+								<li>Microcontroller</li>
+								<li>Autos</li>
+								<li>Kuhmelkmaschine</li>
+							</ul>
+							<li>Desktop</li>
+							<ul>
+								<li>Nie abgehoben</li>
+								<li>fast nichts markanteilsmäßig (1-2%)</li>
+								<li>Seit 2008 "Jahr des Linux Desktops" ausgerufen mit hoffnung auf Durchbruch</li>
+							</ul>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<blockquote>I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386(486) AT clones.</blockquote>
+					<p>- Linus Torvalds (25 August 1991)</p>
+					<aside class="notes">
+						May the source be with you
+					</aside>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: true,
+				center: true,
+				viewDistance: 1,
+
+				transition: 'none', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
